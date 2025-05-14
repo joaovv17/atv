@@ -1,0 +1,59 @@
+h1{
+    font-size: 55px;
+    color: rgba(24, 56, 238, 0.925);
+}
+body{
+    background-color: rgba(231, 230, 150, 0.788);
+    text-align: center;
+    
+}
+strong{
+    color: rgb(182, 31, 31);
+    font-size: 40px;
+}
+.papa{  
+    width:787px;
+    height: 612px ;
+}
+
+.tc{
+    font-family: "Candal", cursive;
+    font-size: 25px;
+}
+.pp{
+    font-size: 30px;
+    font-family: "Farsan";
+    color:rgb(182, 31, 31);
+}
+.inf{
+    font-family: "Farsan";
+    font-size: 25px;
+}
+footer{
+    height:20px ;
+}
+.msinf{
+    font-style: italic;
+    text-decoration: dotted;
+}
+.fo{
+    font-size: 15px;
+    font-style: italic;
+}
+.ef{
+    font-size: 20px;
+    font-family: "Candal", cursive;
+}.gh{
+    color: rgb(182, 31, 31);
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+    font-family: "Candal";
+    color: brown;
+}
+header{
+    font-size: 25px;
+    font-family: "Candal", cursive ;
+    color: rgb(24, 20, 235);
+}
