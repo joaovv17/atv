@@ -8,9 +8,9 @@ body{
     text-align: center;
     background: #f8f355;
     background: #f8f355;
-    background: linear-gradient(327deg,#f8f355 40%, #00bbff 90%);
-    background: -webkit-linear-gradient(327deg,#f8f355 40%, #00bbff 90%);
-    background: -moz-linear-gradient(327deg,#f8f355 40%, #00bbff 90%);
+    background: #ffe8d1;
+    background: linear-gradient(325deg, rgba(255, 232, 209, 1) 10%, rgba(255, 23, 23, 1) 49%, rgba(255, 232, 212, 1) 94%);
+
 }
 strong{
     color: rgb(182, 31, 31);
@@ -19,6 +19,7 @@ strong{
 .papa{  
     width:787px;
     height: 612px ;
+    
 }
 
 .tc{
@@ -33,6 +34,8 @@ strong{
 .inf{
     font-family: "Farsan";
     font-size: 25px;
+    padding: 0px 100px 0px;
+    
 }
 footer{
     height:20px ;
@@ -44,6 +47,9 @@ footer{
 .fo{
     font-size: 15px;
     font-style: italic;
+    float: right;
+    position: sticky;
+    top: 20px;
 }
 .ef{
     font-size: 20px;
@@ -74,11 +80,11 @@ header{
 }
     .gt:hover{
     background-color: rgb(1, 235, 118);
-    color: rgb(240, 240, 240);
+    color: rgb(255, 255, 255);
 }
 tr:hover{
 background-color: rgb(0, 0, 0);
-color :rgb(107, 201, 0);
+color :rgb(115, 235, 46);
 
 }
 table{
@@ -88,4 +94,19 @@ table{
 td, th {
     background-color:rgb(255, 255, 255) ;
     
+}
+.infg{
+    font-family: "Farsan";
+    font-size: 25px;
+    column-count: 2;
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-gap: 24px;
+-webkit-column-gap: 24px;
+-moz-column-gap: 24px;
+column-rule: 6px double #000000;
+-webkit-column-rule: 6px double #000000;
+-moz-column-rule: 6px double #000000;
+padding: 0px 100px 100px;
+
 }
