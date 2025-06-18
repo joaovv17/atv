@@ -1,6 +1,6 @@
 h1{
     font-size: 55px;
-    color: rgba(24, 56, 238, 0.925);
+    color: rgba(53, 82, 247, 0.925);
     text-shadow: 10px 4px 9px rgba(0,0,0,0.84);
 }
 body{
@@ -77,6 +77,9 @@ header{
     box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
     -webkit-box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
     -moz-box-shadow: 10px 11px 39px 1px rgba(0,0,0,0.57);
+    float: center ;
+    position: sticky;
+    top: 20px;
 }
     .gt:hover{
     background-color: rgb(1, 235, 118);
