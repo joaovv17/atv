@@ -9,5 +9,4 @@ console.log(nulo);
 console.log(typeof(nulo));
 
 console.log(nome);
-console.log(typeof(nome));
-
+console.log(typeof(nome))
