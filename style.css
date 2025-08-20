@@ -16,27 +16,35 @@ strong{
     color: rgb(182, 31, 31);
     font-size: 40px;
 }
-.papa{  
-    width:787px;
-    height: 612px ;
-    
-}
 
+:root {
+    --largura-imagem:787px;
+    --altura-imagem:612px; 
+}
+.papa{
+    width: var(--largura-imagem);
+    height: var(--altura-imagem);
+}
+ .texto{
+    --textos-fonte:"Farsan";
+    --tamanho-fonte:25px;
+    --lugar-texto:0px 100px 0px;
+ }
+.inf{
+    font-family: var(--textos-fonte);
+    font-size: var(--tamanho-fonte);
+    padding: var(--lugar-texto);
+}
 .tc{
     font-family: "Candal", cursive;
     font-size: 25px;
 }
 .pp{
-    font-size: 30px;
+        font-size: 30px;
     font-family: "Farsan";
     color:rgb(182, 31, 31);
 }
-.inf{
-    font-family: "Farsan";
-    font-size: 25px;
-    padding: 0px 100px 0px;
-    
-}
+
 footer{
     height:20px ;
 }

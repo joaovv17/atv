@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <h1 id="titulo">boa tarde</h1>
+    <button onclick="mudtexto()">aperte para mudar o texto </button>
+ <script>
+    function mudtexto(){
+        document.getElementById("titulo").innerHTML="texto mudado";
+    }
+ </script>
+</div>
+<div>
+    <label for="nome">fale seu nome :</label>
+    <input type="seu nome" id="nome">
+    <button onclick="saudacao()">confirmar</button>
+<p id="saudaca"></p>
+    <script>
+        function saudacao(){
+            const nome = document.getElementById("nome").value ;
+            document.getElementById("saudaca").innerHTML= 'ola ${nome}!'; 
+        }
+    </script>
+    </div>
+    <div id="caixa" style="width:80px; height:80px; background-color: brown;"></div>
+<button onclick="mudecor()">mude a cor </button>
+<script>
+    function mudecor(){
+        document.getElementById("caixa").style.backgroundColor="black";
+    }
+</script>
+</body>
+</html>
