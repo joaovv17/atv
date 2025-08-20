@@ -22,8 +22,8 @@
 <p id="saudaca"></p>
     <script>
         function saudacao(){
-            const nome = document.getElementById("nome").value ;
-            document.getElementById("saudaca").innerHTML= 'ola ${nome}!'; 
+            const nome = document.getElementById('nome').value ;
+            document.getElementById("saudaca").innerHTML= "ola " + nome;
         }
     </script>
     </div>
@@ -32,7 +32,9 @@
 <script>
     function mudecor(){
         document.getElementById("caixa").style.backgroundColor="black";
+        document.getElementsByTagName().style.backgroundColor="green";
     }
 </script>
+
 </body>
 </html>
